@@ -1,0 +1,4 @@
+sayi=int(input("Sayıyı giriniz."))
+for i in range(1,100):
+    sayi=sayi+1
+    print("sayi")
