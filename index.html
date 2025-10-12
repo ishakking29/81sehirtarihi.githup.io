@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Şehir Tarihi Uygulaması</title>
+</head>
+<body>
+    <h1>Türkiye Şehir Tarihleri</h1>
+    
+    <ul>
+    {% for key, value in cities.items() %}
+        <li>{{ value }}</li>
+    {% endfor %}
+    </ul>
+    
+    </body>
+</html>
